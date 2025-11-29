@@ -111,6 +111,7 @@ class HelloController {
                 Major.value = null
             } else {
                 Major.isDisable = true
+                Major.selectionModel.clearSelection()
                 Major.value = "NO MAJOR"
             }
         }
