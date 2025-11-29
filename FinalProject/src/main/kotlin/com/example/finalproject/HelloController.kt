@@ -103,11 +103,16 @@ class HelloController {
             "Bachelor of Science in Industrial Education"
         )
 
-        Major.items.addAll("ELECTRONICS", "ELECTRICITY")
-        Major.isDisable = true
+        Major.items.setAll("ELECTRONICS", "ELECTRICITY")
 
-        Course.valueProperty().addListener { _, _, v ->
-            Major.isDisable = v != "Bachelor of Science in Industrial Technology (IND. TECH)"
+        Course.valueProperty().addListener { _, _, course ->
+            if (course == "Bachelor of Science in Industrial Technology (IND. TECH)") {
+                Major.isDisable = false
+                Major.value = null
+            } else {
+                Major.isDisable = true
+                Major.value = "NO MAJOR"
+            }
         }
 
         ClassCode.setCellValueFactory { it.value.classCodeProperty }
