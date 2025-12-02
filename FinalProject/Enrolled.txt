@@ -1,0 +1,23 @@
+
+ID= 6002718
+NAME= GAMBITO, ALEXANDER JULIAN, DE RAMON, 
+COURSE= Bachelor of Science in Industrial Technology (IND. TECH)
+MAJOR= ELECTRICITY
+YEAR= 3rd
+SEMESTER= 1ST Semester
+TYPE= OLD
+SCHOLARSHIP= ACADEMIC SCHOLARSHIP
+PERCENT= 30%
+TOTAL UNITS= 20
+DISCOUNT= ₱6,533.76
+TUITION FEE= ₱15,245.44
+SUBJECTS_ENROLLED
+IT 311, System Integration & Architecture (LEC), 1:30-2:30, MWF, 201, 3
+IT 311L, System Integration & Architecture (LAB), 2:30-3:30, MWF, 201, 1
+IT 312, Quantitative Methods, 3:30-4:30, MWF, 201, 3
+IT 313, Platform Technologies, 4:30-5:30, MWF, 402, 3
+Sacl 314, Philippine Indigenous Communities, 3:30-4:30, TTHS, 303, 3
+IT 310, Elective 1 - Mobile Programming (LEC), 4:30-5:30, TTHS, 203, 3
+IT 310L, Elective 1 - Mobile Programming (LAB), 5:30-6:30, TTHS, 201, 1
+IT 314, Intro to Human-Computer Interaction, 6:30-7:30, TTHS, 201, 3
+----
